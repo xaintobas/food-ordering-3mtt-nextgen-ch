@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8004/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://food-ordering-3mtt-nextgen-bkd.onrender.com/api',
   withCredentials: true, // Send cookies automatically
 });
 
